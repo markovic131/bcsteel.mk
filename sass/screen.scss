@@ -1,0 +1,226 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+@import "compass";
+@import "bootstrap";
+
+body {
+
+    position: relative;
+    padding-top: 80px;
+    //border-top: 20px solid $brand-primary;
+
+    #languageSelector {
+        position: absolute;
+        text-align: right;
+        top: 85px;
+        right: 5px;
+        padding: 3px 10px;
+        border: 1px solid $gray-light;
+        @include border-radius($border-radius-base);
+
+        a {
+            font-size: $font-size-small;
+            color: $gray-light;
+            display: inline-block;
+            margin-right: 10px;
+            text-transform: uppercase;
+
+            &:hover {
+                //text-decoration: none;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+
+    .iconHolder {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        svg {
+            display: block;
+            margin: 0 auto;
+            max-height: 334px;
+            max-width: 334px;
+        }
+    }
+
+    .segment {
+
+        section {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+    }
+
+    .grayWrapper {
+        background-color: $gray-dark;
+        border-top: 1px solid $gray-darker;
+        border-bottom: 1px solid $gray-darker;
+        color: #fff;
+        a {
+            color: #fff;
+        }
+        //@include box-shadow(0 2px 8px #333);
+    }
+
+    section[role=content] {
+
+        #landingWrapper {
+
+            padding-top: 250px;
+            padding-bottom: 250px;
+
+            background: image-url('bg.jpg') no-repeat center;
+            border-bottom: 1px solid $gray-darker;
+            //@include box-shadow(0 2px 8px #333);
+
+            section#hero {
+
+                color: #333;
+
+                h1 {
+                    margin: 0;
+                    font-size: 160px;
+                    //@include text-shadow(0 2px 8px $gray);
+                }
+                p {
+                    margin: 0;
+                    // margin-top: 50px;
+                    // margin-bottom: 70px;
+                    span {
+                        font-weight: 400;
+                    }
+                }
+                @media (max-width: $screen-sm-max) {
+                    h1 {
+                        font-size: 80px;
+                    }
+                }
+            }
+        }
+
+        section#process {
+
+        }
+
+        section#services {
+
+        }
+
+        section#clients {
+            img {
+                @include opacity(0.8);
+                margin: 0 auto;
+                display: block;
+                &:hover {
+                    @include opacity(1);
+                }
+            }
+        }
+
+        section#contact {
+
+            address {
+                strong {
+                    font-size: 18px;
+                }
+                a {
+                    //font-weight: bold;
+                }
+            }
+        }
+
+        section#quotation {
+            p {
+                margin-top: 10px;
+                text-align: right;
+            }
+        }
+
+    }
+
+
+    footer {
+
+        padding-top: 90px;
+        padding-bottom: 90px;
+        text-transform: uppercase;
+        color: $gray-light;
+
+        section#social {
+            a {
+                color: $gray;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-right: 40px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            @media (max-width: $screen-sm-max) {
+                a {
+                    //margin-right: 0;
+                    margin-right: 20px;
+                    display: inline-block;
+                }
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+
+        }
+
+        section#logo {
+
+            margin: 35px 0;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
+        }
+
+        section#copyright {
+
+        }
+    }
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 55%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+    iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+}
+
+// @import "cdi/*.png";
+// .cdi {
+//     display: inline-block;
+//     height: 48px;
+//     width: 48px;
+
+//     margin-right: 5px;
+//     &:last-child {
+//         margin-right: 0;
+//     }
+// }
+// @include all-cdi-sprites;
