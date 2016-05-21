@@ -1,11 +1,14 @@
 <div id="landingWrapper">
     <div class="container">
         <div class="row">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12 text-left">
                 <section id="hero">
                     <p class="lead">
-                        <!-- Ние создаваме <span>неверојатни</span> кориснички <span>искуства</span>!<br>
-                        Ние сме специјализирана дигитална агенција за креирање додадена <span>бизнис вредност</span> преку примена на <span>иновативни</span> решенија за брендирање, веб дизајн, веб развој и интеграција со социјални медиуми . -->
+                        <strong>Lorem ipsum dolor.</strong>
+                        <br>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, nisi!
+                        <br>
+                        <small>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis, culpa.</small>
                     </p>
                 </section>
             </div>
@@ -16,28 +19,10 @@
     <section id="process">
         <h1>За Нас</h1>
         <div class="row">
-            <div class="col-md-3">
-                <strong>Откривање и слушање</strong>
+            <div class="col-md-8">
                 <p>
-                    Ние прашуваме и слушаме, во поглед на темелно разбирање на Вашата компанија, проект, публика и цели.
-                </p>
-            </div>
-            <div class="col-md-3">
-                <strong>План и дизајн</strong>
-                <p>
-                    Ние внимателно го планираме Вашиот проект и преточуваме во дизајнерски решенија кои се одраз на Вашата замисла.
-                </p>
-            </div>
-            <div class="col-md-3">
-                <strong>Развој и испорака</strong>
-                <p>
-                    Ние ги следиме дефинираните планови и испорачуваме продукт кој ги опфаќа сите вредности кон кои се стремиме.
-                </p>
-            </div>
-            <div class="col-md-3">
-                <strong>Поддршка и раст</strong>
-                <p>
-                    Ние го следиме, анализираме и корегираме растот на Вашиот проект преку континуирана поддршка и соработка.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore excepturi sunt cumque magnam dicta, modi asperiores commodi perspiciatis aut voluptatibus. Error praesentium suscipit impedit amet velit ut, vel corporis quas.
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore excepturi sunt cumque magnam dicta, modi asperiores commodi perspiciatis aut voluptatibus. Error praesentium suscipit impedit amet velit ut, vel corporis quas.
                 </p>
             </div>
         </div>
